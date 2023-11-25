@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"><b>PareHome</b></string>
+    <string name="register">Don\'t have an account? <font color='#3D8361'><u>Register here</u></font>.</string>
+    <string name="login">Already have an account? <font color='#3D8361'><u>Login here</u></font>.</string>
+    <string name="logintoaccount"><b>Login</b> to your account</string>
+    <string name="registertoaccount"><b>Create</b> your account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

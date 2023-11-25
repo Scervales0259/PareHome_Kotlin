@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/egg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".LoginActivity">
+
+        <TextView
+            android:id="@+id/activity_login_tv_welcome"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundstyle"
+            android:bottomLeftRadius="200dp"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/app_name"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/activity_login_tv_loginToAccount"
+            android:layout_width="325dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/logintoaccount"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:id="@+id/activity_login_tv_email"
+            android:layout_width="325dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter"
+            android:text="Email Address"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_login_et_email"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/inter"
+            android:hint="e.g. example@gmail.com"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="14dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_login_tv_password"
+            android:layout_width="325dp"
+            android:layout_height="30dp"
+
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter"
+            android:text="Password"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_login_et_password"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/inter"
+            android:hint="********"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="14dp"></EditText>
+
+        <Button
+            android:id="@+id/activity_login_btn_login"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_g"
+            android:fontFamily="@font/inter"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activity_login_tv_registerHere"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/register"
+            android:textSize="14sp"></TextView>
+
+        <ProgressBar
+            android:id="@+id/activity_login_pg_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/generateUserData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate User Data"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

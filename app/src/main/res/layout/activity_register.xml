@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/egg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/activity_register_tv_welcome"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/activity_register_tv_createYourAccount"
+            android:layout_width="325dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/registertoaccount"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:id="@+id/activity_register_tv_loginHere"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/login"
+            android:textSize="14sp"></TextView>
+
+        <TextView
+            android:id="@+id/activity_register_tv_firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Enter your First Name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="First Name"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your Last Name"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your Phone"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Repeat the above pattern for other input fields -->
+
+        <TextView
+            android:id="@+id/activity_register_tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_description"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundstyle"
+            android:gravity="start"
+            android:hint="Describe yourself"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:paddingLeft="10dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/activity_register_tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your username"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your password"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_profilePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Picture(URL)"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_profilePicture"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="URL"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_fullAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Address"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_fullAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Full Address"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_street"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Street"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_city"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="City"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Region"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/activity_register_et_region"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Region"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/activity_register_tv_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp" />
+
+        <!-- Add other input fields as needed -->
+
+        <EditText
+            android:id="@+id/activity_register_et_country"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundstyle"
+            android:hint="Country"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/activity_register_bt_register"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_g"
+            android:fontFamily="@font/inter"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/activity_register_pb_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

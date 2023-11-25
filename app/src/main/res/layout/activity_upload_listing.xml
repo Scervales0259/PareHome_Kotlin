@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/egg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_uploadYourListing"
+            android:layout_width="325dp"
+            android:layout_height="35dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Upload your listing"
+            android:textColor="#000000"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_firstname"
+            android:layout_width="325dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="First Name"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Last Name"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Phone Number"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_etn_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:inputType="number"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Email Address"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_apartmentName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Apartment Name"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_apartmentName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_roomNumber"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Room Number"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_roomNumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_totalOccupancy"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Total Occupancy"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_totalOccupancy"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_totalBedrooms"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Total Bedrooms"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_totalBedrooms"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_totalBathrooms"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Total Bathrooms"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_totalBathrooms"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_descriptionListing"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Description of the listing"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_descriptionListing"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:lines="50"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="15dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_addressOfListing"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Address of the Listing"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_exactAddress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Exact Address"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_exactAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_country"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Country"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_country"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_region"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Region"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_region"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_city"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="City"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_city"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_postalCode"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Postal Code"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_postalCode"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_street"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Street"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_street"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_pricePerMonth"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Price per Month"
+            android:textSize="16sp"></TextView>
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_pricePerMonth"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp"></EditText>
+
+        <!-- Room Picture 1 -->
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_roomPicture_1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Room Picture 1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_roomPicture_1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:hint="Source URL"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <!-- ... (Repeat for Room Picture 2, 3, 4, and 5) ... -->
+
+        <!-- Room Picture 2 -->
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_roomPicture_2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Room Picture 2"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_roomPicture_2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:hint="Source URL"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <!-- Room Picture 3 -->
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_roomPicture_3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Room Picture 3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_roomPicture_3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:hint="Source URL"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <!-- Room Picture 4 -->
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_roomPicture_4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Room Picture 4"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_roomPicture_4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:hint="Source URL"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <!-- Room Picture 5 -->
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_roomPicture_5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Room Picture 5"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_roomPicture_5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:hint="Source URL"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <!--Longitude and Latitude-->
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Longitude"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/activity_upload_listing_tv_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Latitude"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/activity_upload_listing_et_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/roundstyle"
+            android:fontFamily="@font/poppins"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ghost"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/activity_upload_listing_btn_upload"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_g"
+            android:fontFamily="@font/inter"
+            android:text="Upload"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/activity_register_pg_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "523332735910",
+    "firebase_url": "https://parehome-f5651-default-rtdb.firebaseio.com",
+    "project_id": "parehome-f5651",
+    "storage_bucket": "parehome-f5651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523332735910:android:e374b40789439d7e07f567",
+        "android_client_info": {
+          "package_name": "ph.edu.dlsu.mobdeve.s14.cervales.shams.parehome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiXLWPQCG66HOQQXxsSATBWuNkkZ1MxnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
